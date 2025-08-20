@@ -1,6 +1,6 @@
-#include <iostream>
+ #include <iostream>
 #include <assert.h>
- 
+
 char size(int cms) {
     char sizeName = '\0';
     if(cms < 38) {
@@ -14,7 +14,7 @@ char size(int cms) {
     }
     return sizeName;
 }
- 
+
 void testTshirtSize() {
     std::cout << "\nTshirt size test\n";
     assert(size(37) == 'S');
@@ -24,5 +24,3 @@ void testTshirtSize() {
     assert(size(43) == 'L');
     std::cout << "All is well (maybe!)\n";
 }
-
-

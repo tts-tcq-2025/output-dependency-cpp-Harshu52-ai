@@ -73,6 +73,7 @@ namespace WeatherSpace
     }
 }
 
+
 void testWeatherReport() {
     cout << "\nWeather report test\n";
     WeatherSpace::TestRainy();
